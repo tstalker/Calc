@@ -16,6 +16,7 @@ auto Calc::GetToken(void)
 
 	switch(Global::CurrentToken)
 	{
+	case Token::CTRL_D:
 	case Token::EMPTY:
 		Global::CurrentToken = Token::END;
 		break;

@@ -17,6 +17,7 @@ enum class Calc::Token:
 	END,
 	NAME,
 	NUMBER,
+	CTRL_D = 4,
 	NEW_LINE = '\n',
 	POINT = '.',
 	PRINT = ';',
