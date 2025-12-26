@@ -1,4 +1,5 @@
 #include "Calc.hpp"
+#include "Global.hpp"
 
 double Calc::Expression(bool get)
 {

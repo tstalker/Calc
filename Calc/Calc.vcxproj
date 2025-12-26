@@ -146,13 +146,16 @@
     <ClCompile Include="Error.cpp" />
     <ClCompile Include="Expression.cpp" />
     <ClCompile Include="GetToken.cpp" />
+    <ClCompile Include="Global.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Primary.cpp" />
     <ClCompile Include="Term.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calc.hpp" />
+    <ClInclude Include="Global.hpp" />
     <ClInclude Include="Token.hpp" />
+    <ClInclude Include="Type.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

@@ -1,4 +1,5 @@
 #include "Calc.hpp"
+#include "Global.hpp"
 
 #include <cctype>
 #include <iostream>

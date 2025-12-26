@@ -1,4 +1,5 @@
 #include "Calc.hpp"
+#include "Global.hpp"
 
 #include <iostream>
 #include <numbers>
@@ -33,8 +34,3 @@ int main(void)
 
 	return EXIT_SUCCESS;
 }
-
-double Global::NumberValue{};
-std::string Global::StringValue;
-Calc::Token Global::CurrentToken(Calc::Token::PRINT);
-Type::Table Global::TableName;
