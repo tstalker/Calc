@@ -2,12 +2,10 @@
 #include "Global.hpp"
 
 #include <iostream>
-#include <numbers>
 
 int main(void)
 {
-	Global::TableName["pi"] = std::numbers::pi;
-	Global::TableName["e"] = std::numbers::e;
+	Calc::Init();
 
 	for(auto NeedPrompt(true); std::cin && Global::CurrentToken != Calc::Token::END;)
 	{
